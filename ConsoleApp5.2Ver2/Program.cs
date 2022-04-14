@@ -26,7 +26,7 @@ namespace ConsoleApp5._2Ver2
             while (customers.Count > 0)
             {
                 sum += customers.Dequeue();
-                Console.WriteLine(sum);
+                Console.WriteLine($"В кассе {sum} рублей.");
                 Console.ReadKey();
             }
             if (customers.Count == 0)
